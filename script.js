@@ -313,7 +313,7 @@ const doctors = [
     {
      id: 12,
         name: "dr. Yorike Elizabeth. Latuheru, Sp.P",
-        specialist: "Spesialis Paru dan Pernapasan",
+        specialist: "Spesialis Paru dan Pernafasan",
         hospital: "RSUD Masohi",
         schedule: [
             { day: "Senin", time: "08:00 - 12:00" },
@@ -326,7 +326,7 @@ const doctors = [
     {
      id: 12,
         name: "dr. Reza Fahlefi Amahoru Sp.P",
-        specialist: "Spesialis Paru dan Pernapasan",
+        specialist: "Spesialis Paru dan Pernafasan",
         hospital: "RSUD Masohi",
         schedule: [
             { day: "Kamis", time: "08:00 - 12:00" },
