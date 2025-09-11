@@ -86,6 +86,13 @@ const specialists = [
         description: "Dokter spesialis Gizi dan Nutrisi",
         count: 1
     },
+     {
+        id: 13,
+        name: "Spesialis Paru dan Pernafasan",
+        icon: "fas fa-lungs",
+        description: "Dokter spesialis Paru dan Pernafasan",
+        count: 2
+    },
     
 ];
 
@@ -266,6 +273,8 @@ const doctors = [
         specialist: "Spesialis THT",
         hospital: "RSUD Masohi",
         schedule: [
+            { day: "Senin", time: "08:00 - 12:00" },
+            { day: "Selasa", time: "08:00 - 12:00" },
             { day: "Sabtu", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
@@ -300,6 +309,32 @@ const doctors = [
         ],
         rating: 4.9,
         photo : "https://rsudmasohi.com/upload/photos/2025/02/TLc9ctCoDwQWu4ssDwNE_16_668ed618d2164d0c4c9669aab7cd123a_image.jpg",
+    },
+    {
+     id: 12,
+        name: "dr. Yorike Elizabeth. Latuheru, Sp.P",
+        specialist: "Spesialis Paru dan Pernapasan",
+        hospital: "RSUD Masohi",
+        schedule: [
+            { day: "Senin", time: "08:00 - 12:00" },
+            { day: "Selasa", time: "08:00 - 12:00" },
+            { day: "Rabu", time: "08:00 - 12:00" },
+        ],
+        rating: 4.9,
+        photo : "https://rsudmasohi.com/upload/photos/2024/07/H8DF4d5KYymjRE8efbnO_16_86537abb33e14dd99db27f8f5729a44c_image.jpeg",
+    },
+    {
+     id: 12,
+        name: "dr. Reza Fahlefi Amahoru Sp.P",
+        specialist: "Spesialis Paru dan Pernapasan",
+        hospital: "RSUD Masohi",
+        schedule: [
+            { day: "Kamis", time: "08:00 - 12:00" },
+            { day: "Jumat", time: "08:00 - 12:00" },
+            { day: "Sabtu", time: "08:00 - 12:00" },
+        ],
+        rating: 4.9,
+        photo : "https://rsudmasohi.com/upload/photos/2025/03/S8djLZCdcWoyihd3LbFH_21_10d163300b3aa25bbd1f03929d600814_image.jpeg",
     },
 ];
 
