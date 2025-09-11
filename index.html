@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Dokter - RSUD Masohi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Lambang_Kabupaten_Maluku_Tengah.png" alt="" class="logo-img">RSUD Masohi | Jadwal Dokter</h1>
+                <p>Temukan Jadwal Dokter di RSUD Masohi</p>
+            </div>
+            <div class="header-actions">
+                <!-- <button id="aiAssistantBtn" class="ai-btn">
+                    <i class="fas fa-robot"></i> Asisten AI
+                </button> -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <section class="hero">
+                <h2>Cari Jadwal Dokter</h2>
+                <p>Temukan jadwal dokter spesialis di rumah sakit terdekat</p>
+                
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Cari dokter atau spesialis...">
+                    <button id="searchBtn"><i class="fas fa-search"></i></button>
+                </div>
+                
+                <!-- <div class="filters">
+                    <select id="hospitalFilter">
+                        <option value="">Semua Rumah Sakit</option>
+                    </select>
+                    
+                    <select id="specialistFilter">
+                        <option value="">Semua Spesialis</option>
+                        <option value="anak">Spesialis Anak</option>
+                        <option value="kandungan">Spesialis Kandungan</option>
+                        <option value="kandunganongkologi">Spesialis Ginek-Onkologi</option>
+                        <option value="penyakitdalam">Spesialis Penyakit Dalam</option>
+                        <option value="bedah">Spesialis Bedah</option>
+                        <option value="kulit">Spesialis Kulit</option>
+                        <option value="rehabmedik">Spesialis Rehabilitasi Medik</option>
+                        <option value="paru">Spesialis Paru dan Pernapasan</option>
+                        <option value="gigi">Spesialis Gigi</option>
+                        <option value="bedahmulut">Spesialis Bedah Mulut</option>
+                        <option value="penyakitmulut">Spesialis Penyakit Mulut</option>
+                        <option value="THT">Spesialis THT-BKL</option>
+                        <option value="mata">Spesialis Mata</option>
+                        <option value="saraf">Spesialis Saraf</option>
+                        <option value="edelweis">HIV</option>
+
+                    </select>
+                </div>
+            </section> -->
+
+            <section class="specialists">
+                <h2>Daftar Spesialis</h2>
+                <div class="specialists-grid" id="specialistsGrid">
+                    <!-- Specialist cards will be populated here by JavaScript -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>JadwalDokter</h3>
+                    <p>*Jadwal Dokter Bisa Berubah-Ubah CS : 085254450734</p>
+                </div>
+                
+                <!-- <div class="footer-section">
+                    <h4>Rating & Ulasan</h4>
+                    <div class="rating">
+                        <span class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </span>
+                        <span class="rating-value">4.8</span>
+                        <span class="reviews">(1,243 ulasan)</span>
+                    </div>
+                    <button id="reviewBtn" class="review-btn">Beri Ulasan</button>
+                </div> -->
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 RSUDMASOHI by : Joesihectore. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AI Assistant Chatbot Modal -->
+    <div id="chatbotModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Asisten AI</h3>
+                <button id="closeChatbotBtn" class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="chat-container">
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="message bot-message">
+                            <p>Halo! Saya Asisten AI JadwalDokter. Bagaimana saya bisa membantu Anda hari ini?</p>
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" id="userMessage" placeholder="Tulis pesan Anda...">
+                        <button id="sendMessageBtn"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Review Modal -->
+    <div id="reviewModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Beri Ulasan</h3>
+                <button id="closeReviewBtn" class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="reviewForm">
+                    <div class="form-group">
+                        <label for="reviewName">Nama Anda:</label>
+                        <input type="text" id="reviewName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Rating:</label>
+                        <div class="star-rating">
+                            <span class="star" data-rating="1">&#9733;</span>
+                            <span class="star" data-rating="2">&#9733;</span>
+                            <span class="star" data-rating="3">&#9733;</span>
+                            <span class="star" data-rating="4">&#9733;</span>
+                            <span class="star" data-rating="5">&#9733;</span>
+                        </div>
+                        <input type="hidden" id="ratingValue" value="0">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="reviewComment">Ulasan Anda:</label>
+                        <textarea id="reviewComment" rows="4" placeholder="Bagaimana pengalaman Anda menggunakan layanan kami?"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="reviewPhoto">Foto (opsional):</label>
+                        <input type="file" id="reviewPhoto" accept="image/*">
+                    </div>
+                    
+                    <button type="submit" class="view-schedule-btn">Kirim Ulasan</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
