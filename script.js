@@ -93,6 +93,13 @@ const specialists = [
         description: "Dokter spesialis Paru dan Pernafasan",
         count: 2
     },
+      {
+        id: 14,
+        name: "Spesialis Ginekologi Onkologi",
+        icon: "fas fa-female",
+        description: "Dokter spesialis Kandungan dan Sub spesialis Ginekologi Onkologi",
+        count: 1
+    },
     
 ];
 
@@ -311,7 +318,7 @@ const doctors = [
         photo : "https://rsudmasohi.com/upload/photos/2025/02/TLc9ctCoDwQWu4ssDwNE_16_668ed618d2164d0c4c9669aab7cd123a_image.jpg",
     },
     {
-     id: 12,
+     id: 13,
         name: "dr. Yorike Elizabeth. Latuheru, Sp.P",
         specialist: "Spesialis Paru dan Pernafasan",
         hospital: "RSUD Masohi",
@@ -324,7 +331,7 @@ const doctors = [
         photo : "https://rsudmasohi.com/upload/photos/2024/07/H8DF4d5KYymjRE8efbnO_16_86537abb33e14dd99db27f8f5729a44c_image.jpeg",
     },
     {
-     id: 12,
+     id: 13,
         name: "dr. Reza Fahlefi Amahoru Sp.P",
         specialist: "Spesialis Paru dan Pernafasan",
         hospital: "RSUD Masohi",
@@ -335,6 +342,17 @@ const doctors = [
         ],
         rating: 4.9,
         photo : "https://rsudmasohi.com/upload/photos/2025/03/S8djLZCdcWoyihd3LbFH_21_10d163300b3aa25bbd1f03929d600814_image.jpeg",
+    },
+     {
+     id: 14,
+        name: "dr. Rachmat Ramadhani Tuasikal, Sp.OG., Subsp. Onk",
+        specialist: "Spesialis Ginekologi Onkologi",
+        hospital: "RSUD Masohi",
+        schedule: [
+            { day: "Sabtu", time: "08:00 - 12:00" },
+        ],
+        rating: 4.9,
+         photo : "https://upload.wikimedia.org/wikipedia/commons/3/3d/Lambang_Kabupaten_Maluku_Tengah.png",
     },
 ];
 
