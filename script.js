@@ -409,30 +409,6 @@ function renderSpecialists(specialistsArray) {
     });
 }
 
-// Setup event listeners
-function setupEventListeners() {
-    // AI Assistant Modal
-    aiAssistantBtn.addEventListener('click', () => {
-        chatbotModal.style.display = 'flex';
-    });
-    
-    closeChatbotBtn.addEventListener('click', () => {
-        chatbotModal.style.display = 'none';
-    });
-    
-    window.addEventListener('click', (e) => {
-        if (e.target === chatbotModal) {
-            chatbotModal.style.display = 'none';
-        }
-    });
-    
-    // Chat functionality
-    sendMessageBtn.addEventListener('click', sendMessage);
-    userMessage.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-            sendMessage();
-        }
-    });
     
     // Search functionality
     searchBtn.addEventListener('click', performSearch);
@@ -446,32 +422,6 @@ function setupEventListeners() {
     document.getElementById('reviewBtn').addEventListener('click', showReviewModal);
 }
 
-// Send message in chat
-function sendMessage() {
-    const message = userMessage.value.trim();
-    if (message) {
-        // Add user message
-        addMessageToChat(message, 'user');
-        userMessage.value = '';
-        
-        // Simulate AI response after a short delay
-        setTimeout(() => {
-            const response = getAIResponse(message);
-            addMessageToChat(response, 'bot');
-        }, 1000);
-    }
-}
-
-// Add message to chat
-function addMessageToChat(message, sender) {
-    const messageDiv = document.createElement('div');
-    messageDiv.className = `message ${sender}-message`;
-    messageDiv.innerHTML = `<p>${message}</p>`;
-    chatMessages.appendChild(messageDiv);
-    
-    // Scroll to bottom
-    chatMessages.scrollTop = chatMessages.scrollHeight;
-}
 
 // Perform search
 function performSearch() {
