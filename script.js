@@ -420,7 +420,6 @@ function renderSpecialists(specialistsArray) {
     
     // Review functionality
     document.getElementById('reviewBtn').addEventListener('click', showReviewModal);
-};
 
 
 // Perform search
