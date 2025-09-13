@@ -117,7 +117,7 @@ const doctors = [
             { day: "Kamis", time: "08:00 - 12:00" },
         ],
         rating: 4.8,
-        photo: "https://rsudmasohi.com/upload/photos/2024/04/pp9qXDpRQK52AhHRr1Wt_25_6f5a080a604314c0c679adeccfd59fe4_image.jpg",
+        photo: "",
     },
     {
         id: 1,
@@ -129,7 +129,7 @@ const doctors = [
             { day: "Rabu", time: "08:00 - 12:00" }
         ],
         rating: 4.9,
-        photo : "https://upload.wikimedia.org/wikipedia/commons/3/3d/Lambang_Kabupaten_Maluku_Tengah.png",
+        photo : "",
     },
     {
         id: 8,
@@ -145,7 +145,7 @@ const doctors = [
             { day: "Sabtu", time: "08:00 - 12:00" }
         ],
         rating: 4.7,
-        photo: "https://rsudmasohi.com/upload/photos/2024/04/QOweSEvTW3TAEinmGRqO_27_9f59ebdaff8fd935ef0023dc2ada1b47_image.jpg",
+        photo: "",
 
     },
     {
@@ -162,7 +162,7 @@ const doctors = [
             { day: "Sabtu", time: "08:00 - 12:00" }
         ],
         rating: 4.7,
-        photo: "https://rsudmasohi.com/upload/photos/2024/04/bSvXsR3PdlJlpkSCxUzY_25_1ea46b658e081f08d1189b9de4546b79_image.png",
+        photo: "",
 
     },
     {
@@ -180,7 +180,7 @@ const doctors = [
            
         ],
         rating: 4.9,
-       photo : "https://upload.wikimedia.org/wikipedia/commons/3/3d/Lambang_Kabupaten_Maluku_Tengah.png",
+       photo : "",
 
     },
      {
@@ -195,7 +195,7 @@ const doctors = [
            
         ],
         rating: 4.9,
-       photo : "https://rsudmasohi.com/upload/photos/2024/04/QEkEo5AywIoFgJ9FSVz9_24_9ea565697277e72c541dcf9b5f6582d8_image.jpeg",
+       photo : "",
 
     },
      {
@@ -209,7 +209,7 @@ const doctors = [
             { day: "Kamis", time: "08:00 - 12:00" }, 
         ],
         rating: 4.9,
-       photo : "https://upload.wikimedia.org/wikipedia/commons/3/3d/Lambang_Kabupaten_Maluku_Tengah.png",
+       photo : "",
 
     },
       {
@@ -222,7 +222,7 @@ const doctors = [
             { day: "Sabtu", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
-       photo :"https://rsudmasohi.com/upload/photos/2025/01/C6aydQ9VmBz1W6ODSDzd_13_8e5a4cb36041275c58c2c70fab44381b_image.jpeg",
+       photo :"",
 
     },
     {
@@ -236,7 +236,7 @@ const doctors = [
              { day: "Jumat", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
-       photo :"https://jadwaldoktershab.netlify.app/Asset/150px/dr.%20Hery%20Siswanto,%20Sp.B,%20FICS%20FINACS.png",
+       photo :"",
 
     },
     {
@@ -248,7 +248,7 @@ const doctors = [
             { day: "Kamis", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
-        photo : "https://upload.wikimedia.org/wikipedia/commons/3/3d/Lambang_Kabupaten_Maluku_Tengah.png",
+        photo : "",
     },
     {
      id: 5,
@@ -261,7 +261,7 @@ const doctors = [
             { day: "Sabtu", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
-        photo : "https://upload.wikimedia.org/wikipedia/commons/3/3d/Lambang_Kabupaten_Maluku_Tengah.png",
+        photo : "",
     },
      {
      id: 6,
@@ -272,7 +272,7 @@ const doctors = [
             { day: "Sabtu", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
-        photo : "https://upload.wikimedia.org/wikipedia/commons/3/3d/Lambang_Kabupaten_Maluku_Tengah.png",
+        photo : "",
     },
     {
      id: 7,
@@ -285,7 +285,7 @@ const doctors = [
             { day: "Sabtu", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
-        photo : "https://rsudmasohi.com/upload/photos/2024/04/8bTmBgS2PtxTfX8EtGXW_19_9f7706cc26a307df54fdbea69c32f8a3_image.jpg",
+        photo : "",
     },
     {
      id: 11,
@@ -299,7 +299,7 @@ const doctors = [
                { day: "Sabtu", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
-        photo : "https://rsudmasohi.com/upload/photos/2024/05/ThYdTQzHyY3lWM96Kl56_02_1eb4c51da22d1eb1f0bce035f572b4c6_image.jpeg",
+        photo : "",
     },
     {
      id: 12,
@@ -315,7 +315,7 @@ const doctors = [
             { day: "Sabtu", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
-        photo : "https://rsudmasohi.com/upload/photos/2025/02/TLc9ctCoDwQWu4ssDwNE_16_668ed618d2164d0c4c9669aab7cd123a_image.jpg",
+        photo : "",
     },
     {
      id: 13,
@@ -328,7 +328,7 @@ const doctors = [
             { day: "Rabu", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
-        photo : "https://rsudmasohi.com/upload/photos/2024/07/H8DF4d5KYymjRE8efbnO_16_86537abb33e14dd99db27f8f5729a44c_image.jpeg",
+        photo : "",
     },
     {
      id: 13,
@@ -341,7 +341,7 @@ const doctors = [
             { day: "Sabtu", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
-        photo : "https://rsudmasohi.com/upload/photos/2025/03/S8djLZCdcWoyihd3LbFH_21_10d163300b3aa25bbd1f03929d600814_image.jpeg",
+        photo : "",
     },
      {
      id: 14,
@@ -352,7 +352,7 @@ const doctors = [
             { day: "Sabtu", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
-         photo : "https://upload.wikimedia.org/wikipedia/commons/3/3d/Lambang_Kabupaten_Maluku_Tengah.png",
+         photo : "",
     },
 ];
 
