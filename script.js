@@ -371,7 +371,6 @@ const searchBtn = document.getElementById('searchBtn');
 // Initialize the application
 document.addEventListener('DOMContentLoaded', () => {
     renderSpecialists(specialists);
-    setupEventListeners();
 });
 
 // Render specialists grid
