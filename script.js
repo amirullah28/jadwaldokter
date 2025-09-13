@@ -417,9 +417,6 @@ function renderSpecialists(specialistsArray) {
             performSearch();
         }
     });
-    
-    // Review functionality
-    document.getElementById('reviewBtn').addEventListener('click', showReviewModal);
 
 
 // Perform search
