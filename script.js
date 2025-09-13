@@ -359,12 +359,6 @@ const doctors = [
 
 // DOM Elements
 const specialistsGrid = document.getElementById('specialistsGrid');
-const aiAssistantBtn = document.getElementById('aiAssistantBtn');
-const chatbotModal = document.getElementById('chatbotModal');
-const closeChatbotBtn = document.getElementById('closeChatbotBtn');
-const chatMessages = document.getElementById('chatMessages');
-const userMessage = document.getElementById('userMessage');
-const sendMessageBtn = document.getElementById('sendMessageBtn');
 const searchInput = document.getElementById('searchInput');
 const searchBtn = document.getElementById('searchBtn');
 
