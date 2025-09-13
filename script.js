@@ -486,16 +486,6 @@ function performSearch() {
     }
 }
 
-// Filter functionality (hospital and specialist)
-document.getElementById('hospitalFilter').addEventListener('change', filterSpecialists);
-document.getElementById('specialistFilter').addEventListener('change', filterSpecialists);
-
-function filterSpecialists() {
-    // For simplicity, we'll just show all specialists regardless of filter
-    // In a real application, this would filter based on the selected values
-    renderSpecialists(specialists);
-}
-
 // Show doctor schedule
 function showDoctorSchedule(specialistName) {
     // Find all doctors with the same specialist
