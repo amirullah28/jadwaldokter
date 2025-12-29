@@ -28,7 +28,7 @@ const specialists = [
         name: "Spesialis Bedah",
         icon: "fas fa-procedures",
         description: "Dokter spesialis untuk tindakan operasi",
-        count: 2
+        count: 1
     },
     {
         id: 5,
