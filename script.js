@@ -191,7 +191,7 @@ const doctors = [
         schedule: [
             { day: "Senin", time: "08:00 - 12:00" },
             { day: "Selasa", time: "08:00 - 12:00" },
-            { day: "Jumat", time: "08:00 - 12:00" },
+            { day: "Rabu", time: "08:00 - 12:00" },
            
         ],
         rating: 4.9,
