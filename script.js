@@ -234,7 +234,6 @@ const doctors = [
             { day: "Senin", time: "08:00 - 12:00" },
             { day: "Selasa", time: "08:00 - 12:00" },
              { day: "Rabu", time: "08:00 - 12:00" },
-            { day: "Kamis", time: "08:00 - 12:00" },
         ],
         rating: 4.9,
        photo :"https://rsudmasohi.com/upload/photos/2025/06/PCM1leSsWogIqHLiy2Cr_11_f996625590fbde26d8138b011cbad554_image.jpeg",
